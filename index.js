@@ -1,4 +1,3 @@
-// Student Registration No : IT18178500
 
 "use strict";
 
