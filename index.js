@@ -12,12 +12,12 @@ app.get("/", (req, res, next) => {
   res.sendFile("index.html");
 });
 
-app.listen(3000, err => {
+app.listen(process.env.PORT || 3000, err => {
   if (err) {
     console.log(err);
     return;
   }
-  console.log("App listening on port 3000");
+  console.log("App listening on port");
 });
 
 const users = [];
